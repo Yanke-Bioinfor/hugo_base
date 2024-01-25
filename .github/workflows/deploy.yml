@@ -28,7 +28,7 @@ jobs:
             - name: Deploy Web
               uses: peaceiris/actions-gh-pages@v3
               with:
-                  PERSONAL_TOKEN: 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
+                  PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
                   EXTERNAL_REPOSITORY: Yanke-Bioinfor/yanke-bioinfor.github.io
                   PUBLISH_BRANCH: master
                   PUBLISH_DIR: ./public
