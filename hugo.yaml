@@ -66,8 +66,8 @@ params:
     imageHeight: 120
     imageTitle: my image
     buttons:
-      - name: Pages
-        url: page
+      - name: Posts
+        url: post
       - name: Tags
         url: tags
 
@@ -78,7 +78,7 @@ params:
 
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/"
+      url: "https://twitter.com/cloudstarfall"
     - name: stackoverflow
       url: "https://stackoverflow.com"
     - name: github
