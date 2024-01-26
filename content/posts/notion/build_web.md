@@ -45,7 +45,7 @@ editPost:
 
 从19年开始使用Notion，后来因为疫情缘故，组织了一些抗疫相关页面，Notion官方赠送了免费的team plan，到现在已经三年了。
 
-![Untitled](554d6cd2_Untitled.png)
+![Untitled](../554d6cd2_Untitled.png)
 
 # 缘起·Blog
 
@@ -57,7 +57,7 @@ editPost:
 
 # Vercel + Notion
 
-第一个主页性质的页面 ([Curtis‘ Home Page](https://www.notion.so/aa758a835b234e7b942f43f0334a155d]) 就诞生了，来自@**heyalber**设计的模板。
+第一个主页性质的页面 [Curtis‘ Home Page](https://liyanke.notion.site]) 就诞生了，来自@**heyalber**设计的模板。
 
 我有一个十年的域名biocat.top，遂希望能用自己的域名访问Notion的网址。经过一番调试，最终采用Vercel+notion的解决方案。
 
@@ -314,7 +314,7 @@ Hugo可以将md文件编译成Html文件，需要你配置相应的目录结构�
 
 	[//]: # (column is not supported)
 
-		![Untitled](8b20176b_Untitled.png)
+		![Untitled](../8b20176b_Untitled.png)
 
 		<br/>
 
@@ -344,19 +344,19 @@ hidemeta: true
 
 个人主页仓库要求比较特殊，必须是<username>.github.io，这个库的名字也是github page初始的域名。像这里我只能是我的用户名+.github.io，忽视大小写。创建之后不用管。等创建一个hugo的仓库，维护我们md文件和创建action功能之后，这个库会自动更新的。
 
-![Untitled](9c0bcbd1_Untitled.png)
+![Untitled](../9c0bcbd1_Untitled.png)
 
 ### 创建个人Token
 
 在github设置里，不是仓库设置里，找到developer settings,添加一个repo和workflow的token。这个token只出现一次，并且有时效性，及时记录下来。
 
-![Untitled](6b96cfcb_Untitled.png)
+![Untitled](../6b96cfcb_Untitled.png)
 
 ### 创建hugo仓库
 
 首先配置一下刚刚创建好的token,在hugo仓库的settings里。
 
-![Untitled](513c5960_Untitled.png)
+![Untitled](../513c5960_Untitled.png)
 
 接下来在hugo的仓库目录下创建一个.github/workflows文件夹，里面放入执行action的yml文件，可以放很多个，github action功能非常强大，他可以定时或者根据条件触发任务。这些任务可以是git，python，go等等程序。这里我们创建一个可以自动部署hugo的action。
 
