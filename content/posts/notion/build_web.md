@@ -41,13 +41,13 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-# 初见·Notion
+## 初见·Notion
 
 从19年开始使用Notion，后来因为疫情缘故，组织了一些抗疫相关页面，Notion官方赠送了免费的team plan，到现在已经三年了。
 
 ![Untitled](../554d6cd2_Untitled.png)
 
-# 缘起·Blog
+## 缘起·Blog
 
 一直喜欢Notion的编辑风格，却一直没能妥当的使用起来。
 
@@ -55,7 +55,7 @@ editPost:
 
 研究了半天，不管是自己搭框架做编辑器，还是写MarkDown，都不如Notion编辑器来的舒坦。所以重心就放在如果将Notion做成一个可以做个人主页的博客系统。
 
-# Vercel + Notion
+## Vercel + Notion
 
 第一个主页性质的页面 [Curtis‘ Home Page](https://liyanke.notion.site]) 就诞生了，来自@**heyalber**设计的模板。
 
@@ -75,7 +75,7 @@ Vercel 是一个云原生的全球部署平台，专注于静态网站和单页�
 
 关于Vercel的操作部分，我已经忘记了，这就是没有随时记录的坏处，要不要重新整理下呢。还不知道。接下来就是Hugo + Github Pages + Actions自动化更新Hugo博客了
 
-# Hugo + Github
+## Hugo + Github
 
 对于内容创作来说，高质量的内容才是重中之重，无可奈何，自己还是写不出来高质量作品来，慢慢练习，增强书面和口语表达能力。尽管工具可能是其次的，多尝试下也能为以后坚持做铺垫。
 
