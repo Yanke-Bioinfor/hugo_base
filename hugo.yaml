@@ -68,8 +68,9 @@ params:
     buttons:
       - name: Posts
         url: posts
-      - name: Tags
-        url: tags
+      - name: Notion
+        url: notion
+
 
   # home-info mode
   homeInfoParams:
